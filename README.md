@@ -38,16 +38,6 @@ print('number of missing data:')
 print(data.isnull().sum())
 data.describe(include='all')
 ```
-
-<img width="240" alt="image" src="https://github.com/Vineesha29031970/Mini-Project/assets/133136880/ecd54477-9d1b-4863-bcea-6b0157e26393">
-
-
-<img width="645" alt="image" src="https://github.com/Vineesha29031970/Mini-Project/assets/133136880/045f84d5-9cd7-47f8-9970-41093f4ae03f">
-
-
-<img width="544" alt="image" src="https://github.com/Vineesha29031970/Mini-Project/assets/133136880/5a2c71f8-6390-4466-bc09-aa334552836e">
-
-
 ```
 plt.figure(figsize=(16,12))
 sns.heatmap(data=data.iloc[:,2:].corr(),annot=True,fmt='.2f',cmap='coolwarm')
@@ -66,7 +56,6 @@ plt.xticks(rotation=90)
 plt.show()
 ```
 
-<img width="572" alt="image" src="https://github.com/Vineesha29031970/Mini-Project/assets/133136880/31fc7ed8-7933-404f-8c37-d7e94bd847da">
 
 ```
 fig, axes = plt.subplots(nrows=3, ncols=3, figsize=(20,20))
@@ -110,4 +99,19 @@ data.head(10)
 
 
 <img width="303" alt="image" src="https://github.com/Vineesha29031970/Mini-Project/assets/133136880/811b76d1-0004-441e-aa2d-6ca8a31bea31">
+
+# OUTPUT :
+
+<img width="240" alt="image" src="https://github.com/Vineesha29031970/Mini-Project/assets/133136880/ecd54477-9d1b-4863-bcea-6b0157e26393">
+
+
+<img width="645" alt="image" src="https://github.com/Vineesha29031970/Mini-Project/assets/133136880/045f84d5-9cd7-47f8-9970-41093f4ae03f">
+
+
+<img width="544" alt="image" src="https://github.com/Vineesha29031970/Mini-Project/assets/133136880/5a2c71f8-6390-4466-bc09-aa334552836e">
+
+
+<img width="572" alt="image" src="https://github.com/Vineesha29031970/Mini-Project/assets/133136880/31fc7ed8-7933-404f-8c37-d7e94bd847da">
+
+
 
