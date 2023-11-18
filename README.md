@@ -42,7 +42,11 @@ data.describe(include='all')
 plt.figure(figsize=(16,12))
 sns.heatmap(data=data.iloc[:,2:].corr(),annot=True,fmt='.2f',cmap='coolwarm')
 plt.show()
+```
+
 <img width="507" alt="image" src="https://github.com/Vineesha29031970/Mini-Project/assets/133136880/37357c19-847e-4102-afea-c9678945ab87">
+
+```
 fig, ax = plt.subplots(figsize=(16,6))
 top_gdp_countries = data.sort_values('GDP ($ per capita)',ascending=False).head(20)
 mean = pd.DataFrame({'Country':['World mean'], 'GDP ($ per capita)':[data['GDP ($ per capita)'].mean()]})
