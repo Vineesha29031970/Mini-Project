@@ -38,20 +38,20 @@ print('number of missing data:')
 print(data.isnull().sum())
 data.describe(include='all')
 ```
-<img width="240" alt="image" src="https://github.com/Vineesha29031970/Mini-Project/assets/133136880/ecd54477-9d1b-4863-bcea-6b0157e26393">
+<img width="645" alt="image" src="https://github.com/Vineesha29031970/Mini-Project/assets/133136880/ecd54477-9d1b-4863-bcea-6b0157e26393">
 
 
-<img width="645" alt="image" src="https://github.com/Vineesha29031970/Mini-Project/assets/133136880/045f84d5-9cd7-47f8-9970-41093f4ae03f">
+<img width="675" alt="image" src="https://github.com/Vineesha29031970/Mini-Project/assets/133136880/045f84d5-9cd7-47f8-9970-41093f4ae03f">
 
 
-<img width="544" alt="image" src="https://github.com/Vineesha29031970/Mini-Project/assets/133136880/5a2c71f8-6390-4466-bc09-aa334552836e">
+<img width="697" alt="image" src="https://github.com/Vineesha29031970/Mini-Project/assets/133136880/5a2c71f8-6390-4466-bc09-aa334552836e">
 ```
 plt.figure(figsize=(16,12))
 sns.heatmap(data=data.iloc[:,2:].corr(),annot=True,fmt='.2f',cmap='coolwarm')
 plt.show()
 ```
 
-<img width="507" alt="image" src="https://github.com/Vineesha29031970/Mini-Project/assets/133136880/37357c19-847e-4102-afea-c9678945ab87">
+<img width="720" alt="image" src="https://github.com/Vineesha29031970/Mini-Project/assets/133136880/37357c19-847e-4102-afea-c9678945ab87">
 
 ```
 fig, ax = plt.subplots(figsize=(16,6))
@@ -67,7 +67,7 @@ plt.xticks(rotation=90)
 plt.show()
 ```
 
-<img width="572" alt="image" src="https://github.com/Vineesha29031970/Mini-Project/assets/133136880/31fc7ed8-7933-404f-8c37-d7e94bd847da">
+<img width="740" alt="image" src="https://github.com/Vineesha29031970/Mini-Project/assets/133136880/31fc7ed8-7933-404f-8c37-d7e94bd847da">
 
 ```
 fig, axes = plt.subplots(nrows=3, ncols=3, figsize=(20,20))
@@ -90,13 +90,13 @@ axes[1,2].set_xlim(0,102)
 plt.show()
 ```
 
-<img width="632" alt="image" src="https://github.com/Vineesha29031970/Mini-Project/assets/133136880/e8c7668c-b09c-47b0-bc02-51a05d2e4677">
+<img width="755" alt="image" src="https://github.com/Vineesha29031970/Mini-Project/assets/133136880/e8c7668c-b09c-47b0-bc02-51a05d2e4677">
 
 
-<img width="637" alt="image" src="https://github.com/Vineesha29031970/Mini-Project/assets/133136880/fcb71575-0ceb-46af-8261-7a4d3ed4a9d6">
+<img width="777" alt="image" src="https://github.com/Vineesha29031970/Mini-Project/assets/133136880/fcb71575-0ceb-46af-8261-7a4d3ed4a9d6">
 
 
-<img width="630" alt="image" src="https://github.com/Vineesha29031970/Mini-Project/assets/133136880/acc0f3b7-493c-4a4a-8231-7a073388e7f8">
+<img width="795" alt="image" src="https://github.com/Vineesha29031970/Mini-Project/assets/133136880/acc0f3b7-493c-4a4a-8231-7a073388e7f8">
 
 
 ```
@@ -107,10 +107,8 @@ data.head(10)
 ```
 
 
-<img width="611" alt="image" src="https://github.com/Vineesha29031970/Mini-Project/assets/133136880/33f0479e-7077-4fc9-af5d-081574a13a73">
+<img width="805" alt="image" src="https://github.com/Vineesha29031970/Mini-Project/assets/133136880/33f0479e-7077-4fc9-af5d-081574a13a73">
 
-
-<img width="303" alt="image" src="https://github.com/Vineesha29031970/Mini-Project/assets/133136880/811b76d1-0004-441e-aa2d-6ca8a31bea31">
 
 # OUTPUT :
 
