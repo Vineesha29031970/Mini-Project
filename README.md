@@ -41,7 +41,7 @@ print('number of missing data:')
 print(data.isnull().sum())
 data.describe(include='all')
 ```
-<img width="645" alt="image" src="https://github.com/Vineesha29031970/Mini-Project/assets/133136880/ecd54477-9d1b-4863-bcea-6b0157e26393">
+<img width="635" alt="image" src="https://github.com/Vineesha29031970/Mini-Project/assets/133136880/ecd54477-9d1b-4863-bcea-6b0157e26393">
 
 
 <img width="675" alt="image" src="https://github.com/Vineesha29031970/Mini-Project/assets/133136880/045f84d5-9cd7-47f8-9970-41093f4ae03f">
