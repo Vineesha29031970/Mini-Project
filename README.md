@@ -45,6 +45,7 @@ data.describe(include='all')
 
 
 <img width="697" alt="image" src="https://github.com/Vineesha29031970/Mini-Project/assets/133136880/5a2c71f8-6390-4466-bc09-aa334552836e">
+
 ```
 plt.figure(figsize=(16,12))
 sns.heatmap(data=data.iloc[:,2:].corr(),annot=True,fmt='.2f',cmap='coolwarm')
