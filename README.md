@@ -1,5 +1,7 @@
 # Mini-Project
 
+# GROSS DOMESTIC PRODUCT ANALYSIS OF  INDIA:
+
 # Description :
 
 Leveraging data analysis with Python to study the Gross Domestic Product (GDP) of world countries involves delving into datasets that capture economic indicators. Python, being a versatile programming language, offers powerful tools and libraries for processing, analyzing, and visualizing economic data. Analysts can explore trends, disparities, and correlations within global GDP data. Through statistical analyses and machine learning techniques, Python enables the extraction of valuable insights, aiding policymakers and economists in making informed decisions. The language's data visualization capabilities also facilitate the creation of compelling charts and graphs to represent complex economic patterns and comparisons among countries. Overall, Python serves as a robust tool for economists and data scientists seeking to gain a comprehensive understanding of the economic landscape through the lens of GDP for various nations.
@@ -115,11 +117,45 @@ plt.show()
 
 <img width="805" alt="image" src="https://github.com/Vineesha29031970/Mini-Project/assets/133136880/a78f3cd2-0e11-4822-a84f-0b627e3332a1">
 
+```
+countries_ctg = ('High Income Countries ', 'Upper Middle Income Countries', 'Lower Middle Income Countries', 'Low Income Countries', 'Data Missing')
+counts_5 = (80, 54, 54, 28, 49)
 
-# OUTPUT :
+x_coords = np.arange(len(countries_ctg))
+plt.bar(x_coords, counts_5, tick_label=countries_ctg) 
+plt.xticks(rotation=90) #rotates text for x-axis labels 
+plt.ylabel('Count')
+plt.title('Countries Income Category')
+plt.show()
+```
+<img width="262" alt="image" src="https://github.com/Vineesha29031970/Mini-Project/assets/133136880/62c76337-0e9f-45da-b755-7b5546107933">
 
 
+# GROSS DOMESTIC PRODUCT FINAL ANALYSIS OF INDIA:
 
+```
+import plotly.express as px
+
+country = "INDIA"
+ds = df.T
+ds = ds[[country]].reset_index()
+ds.rename(columns={"index":"year"}, inplace=True)
+ds = ds[0:22]
+fig = px.line(ds, x="year", y=country, text="year")
+fig.update_traces(textposition="bottom right")
+fig.update_layout(
+    title=f"Gross Domestic Product of {country}",
+    xaxis_title="Gross Domestic Product (RUPEES)",
+    yaxis_title="Years")
+fig.show()
+```
+
+<img width="293" alt="image" src="https://github.com/Vineesha29031970/Mini-Project/assets/133136880/fdb962bb-2329-451a-bebb-5295a85d3214">
+
+
+# RESULT:
+
+THUS the GDP Analysis of our country was executed successfully.
 
 
 
