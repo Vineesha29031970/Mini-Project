@@ -116,7 +116,7 @@ plt.show()
 ```
 
 
-<img width="805" alt="image" src="https://github.com/Vineesha29031970/Mini-Project/assets/133136880/a78f3cd2-0e11-4822-a84f-0b627e3332a1">
+<img width="705" alt="image" src="https://github.com/Vineesha29031970/Mini-Project/assets/133136880/a78f3cd2-0e11-4822-a84f-0b627e3332a1">
 
 ```
 countries_ctg = ('High Income Countries ', 'Upper Middle Income Countries', 'Lower Middle Income Countries', 'Low Income Countries', 'Data Missing')
@@ -129,7 +129,7 @@ plt.ylabel('Count')
 plt.title('Countries Income Category')
 plt.show()
 ```
-<img width="262" alt="image" src="https://github.com/Vineesha29031970/Mini-Project/assets/133136880/62c76337-0e9f-45da-b755-7b5546107933">
+<img width="716" alt="image" src="https://github.com/Vineesha29031970/Mini-Project/assets/133136880/62c76337-0e9f-45da-b755-7b5546107933">
 
 
 # GROSS DOMESTIC PRODUCT FINAL ANALYSIS OF INDIA:
@@ -151,7 +151,7 @@ fig.update_layout(
 fig.show()
 ```
 
-<img width="293" alt="image" src="https://github.com/Vineesha29031970/Mini-Project/assets/133136880/fdb962bb-2329-451a-bebb-5295a85d3214">
+<img width="733" alt="image" src="https://github.com/Vineesha29031970/Mini-Project/assets/133136880/fdb962bb-2329-451a-bebb-5295a85d3214">
 
 
 # RESULT:
