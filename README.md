@@ -101,14 +101,19 @@ plt.show()
 
 
 ```
-LE = LabelEncoder()
-data['Regional_label'] = LE.fit_transform(data['Region'])
-data['Climate_label'] = LE.fit_transform(data['Climate'])
-data.head(10)
+colors = ('#ADD8E6','#FFF5EE', '#FFD51F', '#E67F0D', '#D53032')
+plt.pie(
+    counts_5,
+    labels=countries_ctg,
+    autopct='%1.1f%%',
+    colors=colors,
+    shadow=True
+) 
+plt.show()
 ```
 
 
-<img width="805" alt="image" src="https://github.com/Vineesha29031970/Mini-Project/assets/133136880/33f0479e-7077-4fc9-af5d-081574a13a73">
+<img width="805" alt="image" src="https://github.com/Vineesha29031970/Mini-Project/assets/133136880/a78f3cd2-0e11-4822-a84f-0b627e3332a1">
 
 
 # OUTPUT :
